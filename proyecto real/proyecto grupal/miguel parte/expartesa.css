@@ -1,0 +1,149 @@
+
+.tituloevento{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #7e6033, #3b0404);
+    text-align: center;
+    margin-top: 20px;
+    animation: slideInGlow 2s ease-out;
+  }
+
+  @keyframes slideInGlow {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+        text-shadow: none;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+        text-shadow: 0 0 10px rgb(255, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 20px rgb(255, 0, 0);
+    }
+  }
+  
+
+footer {
+    background: linear-gradient(135deg, #7e6033, #3b0404); 
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffcc00; 
+}
+
+
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.dscrpart{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.evento-info{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.img{
+    text-align: center;
+}
+
+.centrado{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #7e6033, #3b0404);
+    text-align: center;
+    margin-top: 20px;
+    animation: slideInGlow 2s ease-out;
+
+}
+
+
+
+.boton1, .boton2{
+    text-align: center;
+    padding: 20px; 
+  }
+  
+  .boton1 button, .boton2 button{
+    background: linear-gradient(135deg, #7e6033, #3b0404);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .boton1 button, .boton2 button {
+    background-color: #218838; /* Verde oscuro */
+    transform: scale(1.05); /* Efecto crecimiento */
+  }
+  
+  .boton1 button:active, .boton2 button:active {
+    background-color: #1e7e34; /* Verde se presiona */
+    transform: scale(0.98); /* Efecto presión */
+  }
+  
+
+.banner{
+    background: url(https://artesaniasdecolombia.com.co/Documentos/Contenido/43140_imagen_grande_seleccionados_expoartesanias_2023-01.jpg);
+    background-size: 1000px, 1800px;
+    text-align: center;
+    height: 600px;
+    width: 1570px;
+    animation: moverFondo 9s linear infinite;
+}
+@keyframes moverFondo {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -500px 0;
+    }
+  }
