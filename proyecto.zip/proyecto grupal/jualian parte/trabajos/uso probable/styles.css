@@ -1,0 +1,49 @@
+.centrado {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #7FFFD4; 
+}
+
+.banner {
+    width: 100%; 
+    height: 100px; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    overflow: hidden; 
+    z-index: -1; 
+    animation: moverBanner 10s linear infinite;
+}
+
+.banner img {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+h1, p {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+h1.centrado, p.centrado {
+    text-align: center;
+}
+
+div.centrado {
+    text-align: center;
+}
+
+@keyframes moverBanner {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

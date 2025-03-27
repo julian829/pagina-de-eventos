@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #7FFFD4; /* Fondo Aqua Marine */
+    text-align: center;
+}
+
+h1.centrado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.evento {
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 600px; /* Limita el tamaño del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.evento a {
+    display: block;
+    text-decoration: none;
+}
+
+.evento-img {
+    width: 100%;
+    height: 300px; /* Ajusta la altura de la imagen */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.evento-img:hover {
+    transform: scale(1.05);
+}
+
+.evento-titulo {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.evento-info {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.centrado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .evento {
+        max-width: 100%;
+    }
+}

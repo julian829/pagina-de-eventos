@@ -1,0 +1,145 @@
+@keyframes slideInGlow {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+        text-shadow: none;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+        text-shadow: 0 0 10px rgba(0, 255, 55, 0.5);
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 20px rgba(43, 255, 0, 0.8);
+    }
+}
+
+.titulo {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #21721e, #2a5298);
+    text-align: center;
+    margin-top: 20px;
+    animation: slideInGlow 2s ease-out;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.evento {
+    text-align: center;
+}
+
+.boton0 {
+    text-align: center;
+    padding: 20px;
+}
+
+.boton0 button {
+    background: linear-gradient(135deg, #21721e, #2a5298);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.boton0 button:hover {
+    background-color: #218838;
+    /* Verde oscuro */
+    transform: scale(1.05);
+    /* Efecto crecimiento */
+}
+
+.boton0 button:active {
+    background-color: #1e7e34;
+    /* Verde cuando se presiona */
+    transform: scale(0.98);
+    /* Efecto presión */
+}
+
+.centrartdo {
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(135deg, #21721e, #2a5298); 
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffcc00; 
+}
+
+
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.descrp{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.evento-info{
+    font-size: x-large;
+}
+
+.evento-titulo{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #21721e, #2a5298);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner {
+    background: url("EVENTOS/MUSICALES/2025.png");
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    width: 2500px;
+}
+
